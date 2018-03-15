@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif}
+.mycalendar {width: 50%; background: #eee; padding: 0; font-weight: bold}
+.current-month {text-align: center; font-size: 30px; color: #fff; font-weight: normal}
+.current-year {text-align: center; font-size: 25px; color: #fff; font-weight: normal}
+.calendar-head {background: #CF3128; padding: 20px}
+
+.w_clm {width: 12.91%; text-align: center; color: #fff;  font-weight: normal;}
+.week-row {background: #FF3C31}
+.cal-rows .w_clm {min-height: 60px; color: #333; display: flex; justify-content: center; align-items: center; line-height: 100%; font-weight: bold;}
+.tdy-date {background: #fff}
+
+
+/*  COLUMN SETUP  */
+.col {display: block;float:left;margin: 1% 0 1% 1.6%;}
+.col:first-child { margin-left: 0; }
+.group:before, .group:after {content:""; display:table;}
+.group:after {clear:both;}
+.group {zoom:1; /* For IE 6/7 */}
